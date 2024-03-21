@@ -1,0 +1,36 @@
+{
+  "name": "utiste",
+  "description": "A powerful, feature rich and customizable logging library for node.js and any browser.",
+  "maintainers": "irhc <irhc@openmailbox.org>",
+  "version": "1.0.0",
+  "author": "CandaceSipes",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "rollup-plugin-uglify": "^0.3.1",
+    "uglify-js-harmony": "^2.6.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "js-logging.umd.js",
+  "jsnext:main": "js-logging.es6.js",
+  "keywords": [
+    "culpa",
+    "ea",
+    "aut",
+    "tracer",
+    "console"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LurlineKlein/utiste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LurlineKlein/utiste.git/issues"
+  }
+}
